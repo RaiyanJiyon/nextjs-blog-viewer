@@ -21,8 +21,8 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div>
-      <h1>Blogs Page</h1>
+    <div className='w-11/12 mx-auto mt-10'>
+      <h1 className='text-4xl font-bold text-blue-500 text-center my-10'>Blogs Page</h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
         {posts.map((post) => (
           <div key={post.id} class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
