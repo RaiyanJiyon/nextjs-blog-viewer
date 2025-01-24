@@ -23,7 +23,7 @@ const ProfilePage = () => {
 
     if (!user) {
         return (
-            <div className="text-center text-gray-600">
+            <div className="text-center text-gray-600 my-20">
                 <p>No user logged in. Please sign in.</p>
             </div>
         );
